@@ -12,3 +12,50 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
         sans-serif;
 }
+.section-title {
+    display: inline-block;
+    width: 100%;
+    font-family: 'Jost-Regular';
+    font-size: 13px;
+    line-height: 1.7;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 30px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.section-title-description { 
+    display: inline-block;
+    width: 100%;
+    font-family: 'Jost-600-Bold';
+    font-size: 36px;
+    font-weight: 600; 
+    line-height: 1.2;
+    text-align: left;
+    color: #18181f;;
+}
+
+.paragraph {
+    display: inline-block;
+    width: 100%;
+    font-family: 'Jost-700-Bold';
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    color: #373737;
+    margin-bottom: 20px;
+}
+
+.section-title.center {
+    text-align: center;
+}
+
+.section-title-description.center {
+    text-align: center;
+}
+
+.paragraph.center {
+    text-align: center;
+}
