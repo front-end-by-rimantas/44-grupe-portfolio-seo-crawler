@@ -1,4 +1,5 @@
 :root {
+
 }
 
 body,
@@ -12,6 +13,7 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
         sans-serif;
 }
+
 .section-title {
     display: inline-block;
     width: 100%;
@@ -20,7 +22,7 @@ body {
     font-weight: 800;
     letter-spacing: 1.5px;
     text-transform: uppercase;
-    color:#9face6;
+    color: var(--main-color);
     line-height: 30px;
     text-align: left;
     margin-bottom: 10px;
@@ -36,6 +38,7 @@ body {
     text-align: left;
     color: #18181f;
 }
+
 
 .paragraph {
     display: inline-block;
