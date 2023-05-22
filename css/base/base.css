@@ -16,11 +16,11 @@ body {
     display: inline-block;
     width: 100%;
     font-family: 'Jost-VariableFont_wght', sans-serif;
-    font-size: 13px;
-    line-height: 1.7;
+    font-size: 12px;
     font-weight: 800;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
     text-transform: uppercase;
+    color:#9face6;
     line-height: 30px;
     text-align: left;
     margin-bottom: 10px;
@@ -34,17 +34,17 @@ body {
     font-weight: 600; 
     line-height: 1.2;
     text-align: left;
-    color: #18181f;;
+    color: #18181f;
 }
 
 .paragraph {
     display: inline-block;
     width: 100%;
     font-family: 'Jost-VariableFont_wght', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     text-align: left;
-    color: #373737;
+    color: #6e6e6e;
     margin-bottom: 20px;
 }
 
