@@ -15,10 +15,10 @@ body {
 .section-title {
     display: inline-block;
     width: 100%;
-    font-family: 'Jost-Regular';
+    font-family: 'Jost-VariableFont_wght', sans-serif;
     font-size: 13px;
     line-height: 1.7;
-    font-weight: 700;
+    font-weight: 800;
     letter-spacing: 2px;
     text-transform: uppercase;
     line-height: 30px;
@@ -29,7 +29,7 @@ body {
 .section-title-description { 
     display: inline-block;
     width: 100%;
-    font-family: 'Jost-600-Bold';
+    font-family: 'Jost-VariableFont_wght', sans-serif;
     font-size: 36px;
     font-weight: 600; 
     line-height: 1.2;
@@ -40,7 +40,7 @@ body {
 .paragraph {
     display: inline-block;
     width: 100%;
-    font-family: 'Jost-700-Bold';
+    font-family: 'Jost-VariableFont_wght', sans-serif;
     font-size: 18px;
     font-weight: 400;
     text-align: left;
