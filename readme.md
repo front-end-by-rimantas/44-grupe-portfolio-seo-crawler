@@ -55,7 +55,7 @@ Would like to run this project locally? Open terminal and follow these steps:
 
 1. Clone the repo
     ```sh
-    git clone https://github.com/front-end-by-rimantas/43-grupe-portfolio-ewebot
+    git clone https://github.com/front-end-by-rimantas/44-grupe-portfolio-seo-crawler
     ```
 2. Install NPM packages
     ```sh
