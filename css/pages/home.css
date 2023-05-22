@@ -5,10 +5,11 @@
 /* vendors */
 
 /* components */
-@import '../components/hero.css'
+
 /* CUSTOM CSS */
 
 /* HERO start */
+@import '../pages/hero.css'
 /* Hero END */
 
 
