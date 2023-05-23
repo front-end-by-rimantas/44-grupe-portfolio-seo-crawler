@@ -1,5 +1,7 @@
 :root {
-
+    --main-color:#9face6;
+    --secondary-color:#f9ada0;
+    --third-color:#b3d89c;
 }
 
 body,
@@ -61,4 +63,15 @@ body {
 
 .paragraph.center {
     text-align: center;
+=======
+.main-color {
+    color: var(--main-color);
+}
+
+.secondary-color {
+    color: var(--secondary-color);
+}
+
+.third-color {
+   color: var(--third-color);
 }
