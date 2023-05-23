@@ -1,4 +1,7 @@
 :root {
+    --main-color:#9face6;
+    --secondary-color:#f9ada0;
+    --third-color:#b3d89c;
 }
 
 body,
@@ -11,4 +14,16 @@ body * {
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
         sans-serif;
+}
+
+.main-color {
+    color: var(--main-color);
+}
+
+.secondary-color {
+    color: var(--secondary-color);
+}
+
+.third-color {
+   color: var(--third-color);
 }
