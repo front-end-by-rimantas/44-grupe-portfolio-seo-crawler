@@ -77,3 +77,18 @@ body {
 .third-color {
    color: var(--third-color);
 }
+
+.main-heading {
+    display: inline-block;
+    width: 100%;
+    font-family: 'Jost-VariableFont_wght', sans-serif;
+    font-size: 65px;
+    font-weight: 600; 
+    line-height: 90px;
+    text-align: left;
+    color: #18181f;
+}
+
+.main-heading > span {
+    color: var(--main-color);
+}
