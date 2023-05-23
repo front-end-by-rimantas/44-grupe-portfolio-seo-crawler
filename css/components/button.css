@@ -1,5 +1,7 @@
 .btn{
     background-color: pink;
+    color: white;
     padding: 20px 30px;
     border-radius: 25px;
+    border: none;
 }
