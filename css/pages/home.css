@@ -9,10 +9,12 @@
 /* CUSTOM CSS */
 
 /* HERO start */
+@import '../pages/hero.css';
 /* Hero END */
 
 
 /*SERVICES start */
+@import '../pages/services.css';
 /*SERVICES end */
 
 
@@ -29,6 +31,7 @@
 
 
 /*TEAM start */
+@import '../pages/Team.css';
 /*TEAM end */
 
 
