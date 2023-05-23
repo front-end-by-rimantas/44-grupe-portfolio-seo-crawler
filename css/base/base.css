@@ -63,7 +63,8 @@ body {
 
 .paragraph.center {
     text-align: center;
-=======
+}
+
 .main-color {
     color: var(--main-color);
 }
