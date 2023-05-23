@@ -82,8 +82,7 @@ Arūnas: [Github](https://github.com/amik33)\
 Žygimantas: [Github](https://github.com/ZygimantasL)\
 Milda: [Github](https://github.com/ZakarkaiteMilda)\
 Edvardas: [Github](https://github.com/AnapusKitapus)\
-Rolandas: [Github](https://github.com/Rolandas789)\
-Simas: [Github](https://github.com/Soliunas)
+Rolandas: [Github](https://github.com/Rolandas789)
 
 
 ## ⚠️ License
