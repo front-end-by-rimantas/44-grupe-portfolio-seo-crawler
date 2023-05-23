@@ -5,6 +5,7 @@
 /* vendors */
 
 /* components */
+@import '../components/pseudo-element.css';
 
 /* CUSTOM CSS */
 
@@ -19,6 +20,36 @@
 
 
 /*OPTIMIZE start */
+.experience-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.experience-box {
+    background-color: beige;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.experience-img {
+    width: 100%;
+}
+
+.experience-p {
+    width: 85%;
+    
+    
+}
+
+.experience-minus {
+    width: 5%;
+    text-align: center;
+}
+
 /*OPTIMIZE end */
 
 
