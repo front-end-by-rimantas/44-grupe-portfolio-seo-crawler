@@ -27,7 +27,7 @@
 }
 
 .experience-box {
-    background-color: beige;
+    background-color: #e5f8ff;
     padding: 10px;
     display: flex;
     flex-direction: row;
@@ -41,7 +41,7 @@
 }
 
 .experience-p {
-    width: 85%;
+    width: 90%;
     
     
 }
@@ -50,10 +50,19 @@
     width: 5%;
     text-align: center;
     
+    
 }
 
 .experience-box > p {
     margin-bottom: 0px;
+}
+
+.experience-box > i {
+    margin-bottom: 0px;
+}
+
+.span-experience {
+    color: var(--main-color);
 }
 /*OPTIMIZE end */
 
