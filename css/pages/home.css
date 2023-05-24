@@ -60,12 +60,15 @@
 .button {
     margin-top: 30px;
 }
-.section-title {
+.marketing-section-title {
+    text-transform: uppercase;
     color: rgb(178, 217, 154);
 }
 .link {
-    text-decoration:none;
+    text-decoration: none;
+    color: rgb(159, 171, 233);
 }
+.
 /*MARKETING AGENCY end*/
 
 
