@@ -1,0 +1,22 @@
+.btn{
+    background-color: var(--main-color);
+    display: inline-block;
+    margin-right: 20px;
+    color: white;
+    font-weight: 700;
+    margin-top: 40px;
+    padding: 20px 40px;
+    border-radius: 55px;
+    text-transform: uppercase;
+    border: none;
+    text-decoration: none;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.btn.btn2 {
+    background-color: var(--secondary-color);
+}
+.btn.btn1:hover{
+    background-color: black;
+}
