@@ -5,6 +5,7 @@
 /* vendors */
 
 /* components */
+@import '../components/button.css';
 @import '../components/pseudo-element.css';
 
 /* CUSTOM CSS */

@@ -1,0 +1,11 @@
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    margin: 20px 10px;
+    background-color: var(--main-color);
+    color: white;
+    padding: 20px 30px;
+    border-radius: 25px;
+    border: none;
+    /* its stuck */
+}
