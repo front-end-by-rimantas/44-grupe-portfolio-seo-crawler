@@ -1,8 +1,18 @@
 .btn{
-    background-color: pink;
+    background-color: var(--main-color);
+    display: inline-block;
+    margin-right: 20px;
     color: white;
-    padding: 20px 30px;
-    border-radius: 25px;
+    font-weight: 700;
+    margin-top: 40px;
+    padding: 20px 40px;
+    border-radius: 55px;
+    text-transform: uppercase;
     border: none;
-    /* its stuck */
+}
+.btn:hover{
+    cursor: pointer;
+}
+.btn.btn1:hover{
+    background-color: black;
 }
