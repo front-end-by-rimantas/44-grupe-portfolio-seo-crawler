@@ -82,8 +82,16 @@ Arūnas: [Github](https://github.com/amik33)\
 Žygimantas: [Github](https://github.com/ZygimantasL)\
 Milda: [Github](https://github.com/ZakarkaiteMilda)\
 Edvardas: [Github](https://github.com/AnapusKitapus)\
+<<<<<<< Updated upstream
 Rolandas: [Github](https://github.com/Rolandas789)
+=======
+Rolandas: [Github](https://github.com/Rolandas789)\
+Simas: [Github](https://github.com/Soliunas)
+<<<<<<< HEAD
+>>>>>>> Stashed changes
 
+=======
+>>>>>>> e89b4ab380ef473ab6e939ed3622fe140c6c9566
 
 ## ⚠️ License
 
