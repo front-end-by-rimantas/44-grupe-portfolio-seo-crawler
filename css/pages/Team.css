@@ -1,0 +1,9 @@
+.team-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.team-img {
+    width: 100%;
+}
