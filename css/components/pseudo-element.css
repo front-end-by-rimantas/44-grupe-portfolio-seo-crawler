@@ -17,3 +17,14 @@ h3::after {
     margin-top: 30px;
     margin-bottom: 35px;
 }
+
+clients-h3::after {
+    content: ' ';
+    position: absolute;
+    left: 125px;
+    bottom: -10px;
+    border: 10px solid red;
+    border-bottom: 0;
+    border-left-color: transparent;
+    border-right-color: transparent;
+  }
