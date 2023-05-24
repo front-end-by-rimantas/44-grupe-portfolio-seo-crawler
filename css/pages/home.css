@@ -67,4 +67,7 @@
 
 
 /*HAPPY CLIENTS start */
+.clients-h2-color {
+    color: var(--secondary-color);
+}
 /*HAPPY CLIENTS end */
