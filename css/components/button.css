@@ -9,9 +9,13 @@
     border-radius: 55px;
     text-transform: uppercase;
     border: none;
+    text-decoration: none;
 }
 .btn:hover{
     cursor: pointer;
+}
+.btn.btn2 {
+    background-color: var(--secondary-color);
 }
 .btn.btn1:hover{
     background-color: black;
