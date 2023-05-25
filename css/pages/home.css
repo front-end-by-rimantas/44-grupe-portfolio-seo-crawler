@@ -71,4 +71,34 @@
 .clients-h2-color {
     color: var(--secondary-color);
 }
+
+.reviews-section{
+    
+
+}
+.reviews{
+    border: 3px solid lightgray;
+    padding: 40px;
+    border-radius: 10px;
+
+}
+.reviews-personal {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.person-img {
+    height: 60px;
+    border-radius: 40px;
+}
+
+.rating-img {
+    height: 50px;
+}
+.person-info {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
 /*HAPPY CLIENTS end */
