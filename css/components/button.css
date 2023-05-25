@@ -10,6 +10,7 @@
     text-transform: uppercase;
     border: none;
     text-decoration: none;
+    font-size: 12px;
 }
 .btn:hover{
     cursor: pointer;
@@ -19,4 +20,12 @@
 }
 .btn.btn1:hover{
     background-color: black;
+}
+.btn-circle {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    padding:14px 14px;
+    font-size: 16px;
+    text-align: center; 
 }
