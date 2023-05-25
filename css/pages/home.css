@@ -38,7 +38,8 @@
 }
 
 .experience-img {
-    width: 100%;
+    width: 97%;
+    
 }
 
 .experience-p {
@@ -64,6 +65,11 @@
 
 .span-experience {
     color: var(--main-color);
+}
+
+.experience-btn {
+    width: 150px;
+    margin-top: 0px;
 }
 /*OPTIMIZE end */
 
