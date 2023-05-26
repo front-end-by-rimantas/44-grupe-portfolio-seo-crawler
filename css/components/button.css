@@ -16,3 +16,7 @@
 .btn.btn1:hover{
     background-color: black;
 }
+.btn.btn-video{
+    background-color: transparent;
+    color: var(--secondary-color);
+}
