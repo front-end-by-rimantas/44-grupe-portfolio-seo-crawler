@@ -62,7 +62,27 @@
 
 
 /*TEAM start */
-@import '../pages/Team.css';
+@import '../pages/team.css';
+
+.team-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.team-img {
+    width: 100%;
+}
+
+.column {
+    column-count: 2;
+    margin-bottom: 20px;
+}
+
+.padding {
+    padding-bottom: 20px;
+}
+
 /*TEAM end */
 
 
