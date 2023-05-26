@@ -11,3 +11,7 @@ h3::after {
 h3.pink::after {
     background-color: var(--secondary-color)
 }
+
+h3.green::after {
+    background-color: var(--third-color)
+}
