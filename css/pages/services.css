@@ -1,0 +1,5 @@
+
+
+h3.pink::after {
+    background-color: var(--main-color)
+}
