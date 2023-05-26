@@ -1,11 +1,11 @@
+/* FONT FAMILY - ELEGANT ICONS FOR VIDEO PLAY BUTTON START */
 @font-face {
 	font-family: 'ElegantIcons';
-	src: url('./ElegantIcons.eot');
-	src: local('ElegantIcons'), url('./ElegantIcons.woff') format('woff'), url('./ElegantIcons.ttf') format('truetype');
+	src: url('../../fonts/Eleganticons/ElegantIcons.eot');
+	src: local('ElegantIcons'), url('../../fonts/Eleganticons/ElegantIcons.woff') format('woff'), url('../../fonts/Eleganticons/ElegantIcons.ttf') format('truetype');
 }
 /* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_42835">Text with this font applied</p> */
 .fontsforweb_fontid_42835 {
 	font-family: 'ElegantIcons' !important;
 }
-
-/* Font downloaded from FontsForWeb.com */
+/* FONT FAMILY - ELEGANT ICONS FOR VIDEO PLAY BUTTON END */

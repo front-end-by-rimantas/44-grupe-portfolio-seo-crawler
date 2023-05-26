@@ -3,6 +3,7 @@
 @import '../base/layout.css';
 
 /* vendors */
+@import '../vendor/font.css';
 
 /* components */
 @import '../components/button.css';
