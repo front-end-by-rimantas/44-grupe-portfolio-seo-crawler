@@ -19,6 +19,7 @@
     background-color: black;
 }
 .btn.btn-video{
+<<<<<<< HEAD
     font-size: 25px;
     background-color: transparent;
     color: var(--secondary-color);
@@ -26,3 +27,8 @@
     padding: 0;
     margin: 10px;
 }
+=======
+    background-color: transparent;
+    color: var(--secondary-color);
+}
+>>>>>>> 9815b42 (update)
