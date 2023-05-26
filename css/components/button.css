@@ -1,0 +1,31 @@
+.btn{
+    background-color: var(--main-color);
+    display: inline-block;
+    margin-right: 20px;
+    color: white;
+    font-weight: 700;
+    margin-top: 40px;
+    padding: 20px 40px;
+    border-radius: 55px;
+    text-transform: uppercase;
+    border: none;
+    text-decoration: none;
+    font-size: 12px;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.btn.btn2 {
+    background-color: var(--secondary-color);
+}
+.btn.btn1:hover{
+    background-color: black;
+}
+.btn-circle {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    padding:14px 14px;
+    font-size: 16px;
+    text-align: center; 
+}
