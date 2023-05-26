@@ -54,19 +54,40 @@
 
 
 /*MARKETING AGENCY start*/
+.main-header {
+    text-align: center;
+    color: rgb(178, 217, 154);
+}
+.main-second-header {
+    text-align: center;  
+}
 .paragraph {
+    text-align: center;
     padding-top: 20px;
 }
 .button {
     margin-top: 30px;
 }
-.section-title {
-    text-transform: uppercase;
-    color: rgb(178, 217, 154);
-}
 .link {
+    text-align: center;
     text-decoration: none;
-    color: rgb(159, 171, 233);
+    color: rgb(159, 171, 233); 
+}
+.marketing-header {
+    text-align: center;
+    font-size: 23px;
+}
+.marketing-img {
+    align-items: center;
+}
+.main-second-header::after {
+    content: '';
+    width: 100px;
+    height: 4px;
+    background-color: rgb(178, 217, 154);
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 35px;
 }
 
 /*MARKETING AGENCY end*/
