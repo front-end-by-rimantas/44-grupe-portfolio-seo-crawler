@@ -96,8 +96,8 @@
 }
 
 .column {
+    padding-top: 30px;
     column-count: 2;
-    margin-bottom: 20px;
 }
 
 .padding {
