@@ -88,4 +88,54 @@
 
 
 /*HAPPY CLIENTS start */
+.clients-h2-color {
+    color: var(--secondary-color);
+}
+
+.clients-arrow-positioning {
+    position: relative;
+}
+
+.happy-arrow {
+    display: none;
+    font-size: 50px;
+    color: grey;
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+  
+    
+}
+
+.reviews{
+    border: 3px solid lightgray;
+    padding: 40px;
+    border-radius: 10px;
+
+}
+.reviews-personal {
+    display: flex;
+    flex-direction:row;
+    margin-top: 20px;
+    
+}
+
+.person-img {
+    height: 60px;
+    border-radius: 40px;
+}
+
+.rating-img {
+    height: 50px;
+}
+.person-info {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.paragraph {
+    margin-bottom: 0px;
+}
 /*HAPPY CLIENTS end */
