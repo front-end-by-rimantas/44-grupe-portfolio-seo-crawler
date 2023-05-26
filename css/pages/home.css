@@ -3,7 +3,7 @@
 @import '../base/layout.css';
 
 /* vendors */
-@import '../font-awesome.min.css';
+@import '../vendor/font-awesome.min.css';
 /* components */
 @import '../components/button.css';
 @import '../components/pseudo-element.css';
