@@ -7,3 +7,8 @@ h3::after {
     margin-top: 30px;
     margin-bottom: 35px;
 }
+
+
+h3.pink::after {
+    background-color: var(--secondary-color);
+}
