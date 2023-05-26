@@ -10,13 +10,3 @@ h3::after {
 }
 
 
-.clients-h3::after {
-    content: '';
-    width: 100px;
-    height: 4px;
-    background-color: var(--secondary-color);
-    display: block;
-    margin-top: 30px;
-    
-    
-}

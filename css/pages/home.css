@@ -72,14 +72,20 @@
     color: var(--secondary-color);
 }
 
+.clients-arrow-positioning {
+    position: relative;
+}
+
 .happy-arrow {
-    display: flex;
+    display: none;
     font-size: 50px;
     color: grey;
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+  
     
 }
-    
-
 
 .reviews{
     border: 3px solid lightgray;
