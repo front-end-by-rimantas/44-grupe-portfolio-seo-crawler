@@ -1,9 +1,51 @@
-h3::after {
-    content: '';
-    width: 100px;
-    height: 4px;
+.btn.btn2 {
     background-color: var(--secondary-color);
-    display: block;
-    margin-top: 30px;
-    margin-bottom: 35px;
+    margin-bottom: 70px;
+}
+
+.services-numbers {
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.services-description {
+    text-align: center;
+    font-size: 23px;
+    margin-bottom: 60px;
+    font-weight: 500;
+    color: #6e6e6e;
+}
+
+@media (min-width: 1400px) {
+    .services-numbers.sites{
+        margin-top: 50px;
+
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .services-numbers.sites{
+        margin-top: 50px;
+
+    } 
+
+}
+
+@media (min-width: 992px) {
+    .services-numbers.sites{
+        margin-top: 50px;
+
+    }  
+
+}
+
+@media (min-width: 768px) {
+    .services-numbers.sites{
+        margin-top: 50px;
+
+    }  
+
 }
