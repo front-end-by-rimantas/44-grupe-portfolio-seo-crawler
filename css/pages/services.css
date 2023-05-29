@@ -29,6 +29,11 @@
     content: 'k';
     color: var(--main-color);
 }
+.service-background{
+   background-image:url(../../img/strategy-bg-k.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+}
 
 @media (min-width: 1400px) {
     .numbers-static.sites{
