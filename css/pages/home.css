@@ -3,7 +3,7 @@
 @import '../base/layout.css';
 
 /* vendors */
-
+@import '../vendor/font-awesome.min.css';
 /* components */
 @import '../components/button.css';
 @import '../components/pseudo-element.css';
@@ -28,29 +28,50 @@
 }
 
 .experience-box {
-    background-color: beige;
+    background-color: #e5f8ff;
     padding: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     
 }
 
 .experience-img {
-    width: 96%;
+    width: 96%
+   
+
 }
 
 .experience-p {
-    width: 85%;
+    width: 90%;
     
     
 }
 
-.experience-minus {
+.experience-plius {
     width: 5%;
     text-align: center;
+    
+    
 }
 
+.experience-box > p {
+    margin-bottom: 0px;
+}
+
+.experience-box > i {
+    margin-bottom: 0px;
+}
+
+.span-experience {
+    color: var(--main-color);
+}
+
+.experience-btn {
+    width: 150px;
+    margin-top: 0px;
+}
 /*OPTIMIZE end */
 
 
