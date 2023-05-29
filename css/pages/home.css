@@ -4,7 +4,7 @@
 
 /* vendors */
 @import '../vendor/font.css';
-
+@import '../vendor/font-awesome.min.css';
 /* components */
 @import '../components/button.css';
 @import '../components/pseudo-element.css';
@@ -29,29 +29,49 @@
 }
 
 .experience-box {
-    background-color: beige;
+    background-color: #e5f8ff;
     padding: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     
 }
 
 .experience-img {
-    width: 100%;
+    width: 97%;
+    
 }
 
 .experience-p {
-    width: 85%;
+    width: 90%;
     
     
 }
 
-.experience-minus {
+.experience-plius {
     width: 5%;
     text-align: center;
+    
+    
 }
 
+.experience-box > p {
+    margin-bottom: 0px;
+}
+
+.experience-box > i {
+    margin-bottom: 0px;
+}
+
+.span-experience {
+    color: var(--main-color);
+}
+
+.experience-btn {
+    width: 150px;
+    margin-top: 0px;
+}
 /*OPTIMIZE end */
 
 
@@ -69,4 +89,54 @@
 
 
 /*HAPPY CLIENTS start */
+.clients-h2-color {
+    color: var(--secondary-color);
+}
+
+.clients-arrow-positioning {
+    position: relative;
+}
+
+.happy-arrow {
+    display: none;
+    font-size: 50px;
+    color: grey;
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+  
+    
+}
+
+.reviews{
+    border: 3px solid lightgray;
+    padding: 40px;
+    border-radius: 10px;
+
+}
+.reviews-personal {
+    display: flex;
+    flex-direction:row;
+    margin-top: 20px;
+    
+}
+
+.person-img {
+    height: 60px;
+    border-radius: 40px;
+}
+
+.rating-img {
+    height: 50px;
+}
+.person-info {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.paragraph {
+    margin-bottom: 0px;
+}
 /*HAPPY CLIENTS end */

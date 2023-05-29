@@ -329,6 +329,10 @@
 }
 
 @media (min-width: 992px) {
+    .row .happy-arrow {
+        display: flex;
+        gap:10px;
+    }
     :root {
         --width: 960px;
         --half-gap: 25px;
