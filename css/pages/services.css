@@ -1,6 +1,6 @@
 .btn.btn2 {
     background-color: var(--secondary-color);
-    margin-bottom: 70px;
+    margin-bottom: 37px;
 }
 
 .numbers-dynamic.left,
@@ -32,6 +32,9 @@
 .service-background{
    background-image:url(../../img/strategy-bg-k.png);
    background-size: cover;
+   width: vv; 
+   height: 1800px;
+   background-position: top;
    background-repeat: no-repeat;
 }
 
@@ -46,9 +49,7 @@
 @media (min-width: 1200px) {
     .numbers-static.sites{
         margin-top: 50px;
-
-    } 
-
+    }
 }
 
 @media (min-width: 992px) {
@@ -62,7 +63,8 @@
 @media (min-width: 768px) {
     .numbers-static.sites{
         margin-top: 50px;
-
-    }  
-
+    }
 }
+/* @media (max-width: 768px) {
+.hidden.service-background{}
+} */
