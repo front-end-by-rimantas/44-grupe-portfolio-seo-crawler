@@ -39,8 +39,9 @@
 }
 
 .experience-img {
-    width: 97%;
-    
+    width: 96%
+   
+
 }
 
 .experience-p {
@@ -93,8 +94,9 @@
     color: var(--secondary-color);
 }
 
-.clients-arrow-positioning {
+.container > .clients-arrow-positioning {
     position: relative;
+    margin-bottom: 0;
 }
 
 .happy-arrow {
@@ -138,5 +140,18 @@
 
 .paragraph {
     margin-bottom: 0px;
+}
+
+
+@media (max-width: 400px) {
+    .person-info {
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    .second-review {
+        display: none;
+    }
 }
 /*HAPPY CLIENTS end */
