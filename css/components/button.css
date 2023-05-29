@@ -38,3 +38,12 @@
     font-size: 16px;
     text-align: center; 
 }
+
+body {
+    position: relative;
+}
+body > .btn {
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+}

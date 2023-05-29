@@ -16,12 +16,6 @@ body {
     position: relative;
 }
 
-body > .btn {
-    position: fixed;
-    bottom: 30px;
-    right: 10px;
-}
-
 .section-title {
     display: inline-block;
     width: 100%;

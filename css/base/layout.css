@@ -64,7 +64,6 @@
 .row > [class*='col-'] {
     float: left;
     margin: var(--half-gap);
-
 }
 .row > .col-1 {
     width: var(--c1);
