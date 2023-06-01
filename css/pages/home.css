@@ -60,6 +60,16 @@
 
 /*Featured start */
 @import '../pages/featured.css';
+
+
+
+@media (max-width: 768px){
+    .none {
+    display: none;
+}
+    }
+
+
 /*Featured end */
 
 
