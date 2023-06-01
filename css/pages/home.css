@@ -69,6 +69,14 @@
 }
     }
 
+.center {
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+} 
+
 
 /*Featured end */
 
