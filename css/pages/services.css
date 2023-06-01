@@ -1,13 +1,26 @@
-.numbers-dynamic.left,
-.numbers-dynamic.right,
-.numbers-static {
+.services {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    align-items: start;
+}
+
+.services > .service {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.services > .service > .numbers {
     text-align: center;
     font-size: 50px;
     font-weight: bold;
     margin-bottom: 30px;
 }
 
-.numbers-description {
+.services > .service > .description {
     text-align: center;
     font-size: 23px;
     margin-bottom: 60px;
@@ -15,15 +28,6 @@
     color: #6e6e6e;
 }
 
-.numbers-dynamic.left::after {
-    content: '+';
-    color: var(--main-color);
-}
-
-.numbers-dynamic.right::after {
-    content: 'k';
-    color: var(--main-color);
-}
 .service-background{
    background-image:url(../../img/strategy-bg-k.png);
    background-size: cover;
@@ -34,32 +38,43 @@
 }
 
 @media (min-width: 1400px) {
-    .numbers-static.sites{
-        margin-top: 50px;
-
+    .services {
+        grid-template-areas: "a a a";
+       
     }
-
 }
 
 @media (min-width: 1200px) {
-    .numbers-static.sites{
-        margin-top: 50px;
+    .services {
+        grid-column-end: auto;
+        /* grid-template-areas: "a a a"; */
     }
 }
 
 @media (min-width: 992px) {
-    .numbers-static.sites{
-        margin-top: 50px;
-
-    }  
-
+    .services {
+        grid-template-areas: "a a a a";
+    }
 }
 
 @media (min-width: 768px) {
-    .numbers-static.sites{
-        margin-top: 50px;
+    .services {
+        grid-template-areas: "a a a a";
     }
 }
+
+@media (min-width: 576px) {
+    .services {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 320px) {
+    .services {
+        grid-template-columns: 1fr;
+    }
+}
+
 /* @media (max-width: 768px) {
 .hidden.service-background{}
 } */
