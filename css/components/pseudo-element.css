@@ -11,6 +11,10 @@ h3::after {
 
 h3.secondary-color2::after {
     background-color: var(--secondary-color)
+.clients-h3-pseudo::after {
+    content: '';
+    background-color: var(--secondary-color);
+    margin-bottom: 0px;
 }
 
 h3.third-color3::after {

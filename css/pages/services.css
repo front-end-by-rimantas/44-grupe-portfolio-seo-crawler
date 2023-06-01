@@ -1,0 +1,67 @@
+
+.numbers-dynamic.left,
+.numbers-dynamic.right,
+.numbers-static {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.numbers-description {
+    text-align: center;
+    font-size: 23px;
+    margin-bottom: 60px;
+    font-weight: 400;
+    color: #6e6e6e;
+}
+
+.numbers-dynamic.left::after {
+    content: '+';
+    color: var(--main-color);
+}
+
+.numbers-dynamic.right::after {
+    content: 'k';
+    color: var(--main-color);
+}
+.service-background{
+   background-image:url(../../img/strategy-bg-k.png);
+   background-size: cover;
+   width: vv; 
+   height: 1800px;
+   background-position: top;
+   background-repeat: no-repeat;
+}
+
+@media (min-width: 1400px) {
+    .numbers-static.sites{
+        margin-top: 50px;
+
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .numbers-static.sites{
+        margin-top: 50px;
+    }
+}
+
+@media (min-width: 992px) {
+    .numbers-static.sites{
+        margin-top: 50px;
+
+    }  
+
+}
+
+@media (min-width: 768px) {
+    .numbers-static.sites{
+        margin-top: 50px;
+    }
+}
+/* @media (max-width: 768px) {
+.hidden.service-background{}
+} */
+
