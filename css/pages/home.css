@@ -77,7 +77,19 @@
     display: flex;
 } 
 
+.arrow {
+    display: flex;
+    font-size: 30px;
+    width: 800;
+    color: #6e6e6e6f;
+    justify-content: flex-end;
+}
 
+
+.block {
+    display: block;
+    background-color: goldenrod;
+}
 /*Featured end */
 
 
