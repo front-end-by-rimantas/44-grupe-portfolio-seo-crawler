@@ -1,23 +1,23 @@
-.services {
+.services-socials {
     display: grid;
     grid-template-columns: 1fr;
     gap: 30px;
     align-items: start;
 }
 
-.services > .social {
+.services-socials > .social {
     padding: 10px 10px;
     text-align: center;
 }
 
-.services > .social > .numbers {
+.services-socials > .social > .numbers {
     text-align: center;
     font-size: 50px;
     font-weight: bold;
     margin-bottom: 30px;
 }
 
-.services > .social > .description {
+.services-socials > .social > .description {
     text-align: center;
     font-size: 23px;
     margin-bottom: 60px;
@@ -26,18 +26,17 @@
 }
 
 @media (min-width: 768px) {
-    .services {
+    .services-socials {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
-    .item {
+    .social .item {
         margin-top: 30px;
     }
 }
 
-.service-background{
+.service-background {
    background-image:url(../../img/strategy-bg-k.png);
    background-size: cover;
-   width: vv; 
    height: 1800px;
    background-position: top;
    background-repeat: no-repeat;
