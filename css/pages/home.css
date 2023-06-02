@@ -59,9 +59,7 @@
 
 
 /*Featured start */
-@import '../pages/featured.css';
-
-
+@import './featured.css';
 
 @media (max-width: 768px){
     .none {
@@ -86,6 +84,7 @@
     font-family: 'Jost-VariableFont_wght', sans-serif;
     line-height: 40px;
 }
+
 
 @media (min-width: 992px){
 .arrow {
