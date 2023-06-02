@@ -14,7 +14,7 @@ Site published at: https://front-end-by-rimantas.github.io/44-grupe-portfolio-se
 
 Design: [SeoCrawler](https://demo.goodlayers.com/seocrawler/homepages/seostrategy/)
 
-![Design](./img/screenshots/Main.png)
+![Design](./img/Screenshots/Main.png)
 
 ## 🎯 Project features/goals
 
