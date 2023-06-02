@@ -11,11 +11,11 @@
 /*SERVICES start */
 const servicesSocialsData = [
     {
-        numbers: '137+',
+        numbers: '135+',
         description: 'Completed Sites',
     },
     {
-        numbers: '1200',
+        numbers: '1181',
         description: 'Happy Customers',
     },
     {
