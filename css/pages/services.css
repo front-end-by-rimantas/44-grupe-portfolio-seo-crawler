@@ -29,7 +29,7 @@
     .services-socials {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
-    .social .item {
+    .social.item {
         margin-top: 30px;
     }
 }
