@@ -85,7 +85,7 @@
 
 
 /*TEAM start */
-@import '../pages/team.css';
+@import '../pages/Team.css';
 
 .team-text {
     display: flex;
@@ -94,7 +94,7 @@
 }
 
 .team-img {
-    width: 100%;
+    width: 96%;
 }
 
 .column {
