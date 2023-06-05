@@ -10,8 +10,8 @@ h3::after {
 }
 
 h3.secondary-color2::after {
-    background-color: var(--secondary-color);}
-    
+    background-color: var(--secondary-color)
+}
 .clients-h3-pseudo::after {
     content: '';
     background-color: var(--secondary-color);
