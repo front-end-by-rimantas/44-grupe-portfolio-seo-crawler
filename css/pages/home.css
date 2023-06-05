@@ -69,7 +69,7 @@
     margin-top: 30px;
 }
 .link {
-    text-align: center;
+    align-items: center;
     text-decoration: none;
     color: rgb(159, 171, 233); 
 }
@@ -78,6 +78,7 @@
     font-size: 23px;
 }
 .marketing-img {
+
     align-items: center;
 }
 .main-second-header::after {
