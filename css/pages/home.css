@@ -57,6 +57,17 @@
     
 }
 
+.experience-minus {
+    width: 5%;
+    text-align: center;
+    
+    
+}
+
+.not-visable {
+    display: none;
+}
+
 .experience-box > p {
     margin-bottom: 0px;
 }
@@ -73,6 +84,8 @@
     width: 150px;
     margin-top: 0px;
 }
+
+
 /*OPTIMIZE end */
 
 
