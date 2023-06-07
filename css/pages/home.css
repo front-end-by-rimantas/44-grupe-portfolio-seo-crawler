@@ -105,3 +105,31 @@
 
 /*HAPPY CLIENTS start */
 /*HAPPY CLIENTS end */
+
+/*FOOTER start*/
+.contacts {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.adresses {
+    text-transform: bold;
+}
+.options {
+    color: grey; 
+}
+textarea {
+    background-color: white;
+    border-radius: 70px;
+    width: 80px;
+    height: 50px;
+    text-align: center;
+    padding: 13px;
+}
+button {
+    background-color: aqua;
+    color: white;
+    border-radius: 70px;
+    width: 50px;
+    height: 50px;
+}
+/*FOOTER end*/
